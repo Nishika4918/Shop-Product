@@ -1,0 +1,152 @@
+/* common */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+main{
+    margin: 1rem;
+}
+.main-header{
+    background-color: #3f51b5;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0 1.5rem;
+    margin: 0;
+}
+.main-header__nav{
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+   align-items: center;
+}
+.main-header__item-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.main-header_item{
+    margin: 0 1rem;
+    padding: 0;
+}
+.main-header_item a{
+    text-decoration: none;
+    color: white;
+}
+.main-header_item a:hover,.main-header_item a:active,.main-header_item a.active{
+    color: black;
+    font-size: large;
+}
+
+/* add product */
+#button{
+    width: 10rem;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+}
+#button:hover{
+    background-color: #ffc107;
+}
+#product-form{
+    margin: auto;
+    align-items: center;
+    width: 30rem;
+}
+.logoutbtn{
+    border: none;
+    background:none;
+    color: white;
+}
+
+.user-message{
+    border: 1px solid rgb(81, 81, 240);
+    background-color: rgb(170, 170, 241);
+    border-radius: 3px;
+    margin: auto;
+    padding: .5rem;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.user-message--error{
+    border: 1px solid rgb(238, 66, 66);
+    background-color: rgb(241, 138, 138);
+}
+
+.reset{
+    margin: auto;
+    width: fit-content;
+}
+/* shop.pug */
+
+/* .grid {
+    display: flex;
+} */
+
+.card.product-item{
+    /* border: 1px solid black; */
+    width: 25rem;
+    max-width: 25rem;
+    margin: auto;
+    box-shadow: whitesmoke;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.card__content{
+    text-align: center;
+}
+.product__description{
+    margin: 0 1rem;
+}
+
+.card__action{
+    margin: 2rem 0;
+}
+
+.shopbtn{
+    border: 1px solid green;
+}
+
+.shopbtn:hover{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+
+/* page not found */
+
+#notFound{
+    margin: 1rem;
+}
+
+.orderItem{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pagination{
+    text-align: center;
+    margin-top: 2rem;
+    display: block;
+}
+
+.pagination a{
+    text-decoration: none;
+    border: 1px solid rgb(91, 91, 247);
+    color: rgb(91, 91, 247);
+    padding: .5rem;
+    margin: 0 1rem;
+}
+
+.pagination a:hover,.pagination a:active,.pagination a.active{
+    background-color: rgb(91, 91, 247);
+    color: white;
+}
+
+
